@@ -1,5 +1,5 @@
 <?php
-include 'dbconnect.php';
+include_once 'dbconnect.php';
 
 // creating categories table:
 $cat_create_sql = "CREATE TABLE categories(
